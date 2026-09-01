@@ -121,7 +121,7 @@
               <h2 class="title is-5">
                 <font color="#808080">
                   <p></p><p></p><p></p>
-                  TL;DR: ChainSplat uses a physics-informed open-chain model to recover the 3D geometry, 
+                  TL;DR: ChainSplat uses a physics-informed open-chain model to recover the 3D geometry, <br>
                   appearance, and dynamics of deformable linear objects directly from multi-view RGB videos.
                 </font>
               </h2>
@@ -135,6 +135,44 @@
             </div>            
           </div>
 
+          <!-- Teaser Video. -->
+          <div class="columns is-centered">
+
+            <!-- Dynamics Learning. -->
+            <div class="column has-text-left">
+              <div class="content">
+                <h2 class="title is-3">Dynamics Learning</h2>
+                <p>
+                   ChainSplat achieves strong performance in modeling digital twins of DLOs, with 
+                   accurate dynamics, faithful 3D geometry reconstruction, and high-quality RGB rendering.
+                </p>
+                <!-- <video id="sd" autoplay controls muted loop playsinline height="100%"> -->
+                <video id="dl" autoplay controls muted loop playsinline height="100%">
+                  <source src="./assets/videos/dl.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+
+            <!-- Model-based Manipulation. -->
+            <div class="column has-text-left">
+              <h2 class="title is-3">Model-based Manipulation</h2>
+              <div class="columns is-centered">
+                <div class="column content">
+                  <p>
+                    ChainSplat can also be effectively used for model-based trajectory optimization, 
+                    as demonstrated by the task of using DLOs to hit desired target points (indicated by green circles).
+                  </p>
+                  <!-- <video id="tr" autoplay controls muted loop playsinline height="100%"> -->
+                  <video id="mbm" autoplay controls muted loop playsinline height="100%">
+                    <source src="./assets/videos/mbm.mp4"
+                            type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
